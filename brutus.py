@@ -54,7 +54,7 @@ def address(publickey): # Public Key -> Wallet Address
 def balance(address): # Query API for wallet balance
     try:
         print (str(address) + " = " + privateKey())
-        if (str(address) == "BITCOINADDRESSHERE"):
+        if (str(address) == "1FeexV6bAHb8ybZjqQMjJrcCrHGW9sb6uF"):
             print("\nFound Key: " + str(address) + "\n")
             return -1
         sys.exit(0)
@@ -96,8 +96,8 @@ def Plutus(): # Main Plutus Function
                        "public key: " + str(data[1]).upper() + "\n" +
                        "balance: " + str(data[3]) + "\n" +
                        "Donate to the author of this program:" + "\n" +
-				       "Bitcoin: 12g88eRApxeSs4xiNFWMmvMEiWa36BMvSz" + "\n" +
-                       "Digibyte: DRirtCB5UN8mxAG1EL64vJPxJ6nTJJbrKj")
+				       "Bitcoin: 1" + "\n" +
+                       "Digibyte: j")
             file.close()
 
 ### Multiprocessing Extension Made By Wayne Yao https://github.com/wx-Yao modified by Christian Hummel ###
@@ -143,10 +143,10 @@ def process_balance(dataset,balance):
                    "WIF private key: " + str(WIF) + "\n" +
                    "public key: " + str(publickey).upper() + "\n" +
                    "balance: " + str(balance) + "\n" +
-                   "Donate to the author of thoriginal program Plutus: 1B1k2fMs6kEmpxdYor6qvd2MRVUX2zGEHa\n\n" + "\n" +
+                   "Donate to the author of thoriginal program Plutus: 1\n\n" + "\n" +
 				   "Donate to the author of this program:" + "\n" +
-				   "Bitcoin: 12g88eRApxeSs4xiNFWMmvMEiWa36BMvSz" + "\n" +
-                   "Digibyte: DRirtCB5UN8mxAG1EL64vJPxJ6nTJJbrKj")
+				   "Bitcoin: 1" + "\n" +
+                   "Digibyte: D")
         file.close()
         sys.exit(0)
     return None
