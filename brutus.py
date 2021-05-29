@@ -96,7 +96,7 @@ def Plutus(): # Main Plutus Function
                        "public key: " + str(data[1]).upper() + "\n" +
                        "balance: " + str(data[3]) + "\n" +
                        "Donate to the author of this program:" + "\n" +
-				       "Bitcoin: 1" + "\n" +
+				       "Bitcoin: 1Np6TE5TDDresDn9LDQm3wNFnkE5zSo7eC" + "\n" +
                        "Digibyte: j")
             file.close()
 
@@ -145,7 +145,7 @@ def process_balance(dataset,balance):
                    "balance: " + str(balance) + "\n" +
                    "Donate to the author of thoriginal program Plutus: 1\n\n" + "\n" +
 				   "Donate to the author of this program:" + "\n" +
-				   "Bitcoin: 1" + "\n" +
+				   "Bitcoin: 1Np6TE5TDDresDn9LDQm3wNFnkE5zSo7eC" + "\n" +
                    "Digibyte: D")
         file.close()
         sys.exit(0)
